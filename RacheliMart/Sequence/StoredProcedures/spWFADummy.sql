@@ -1,4 +1,4 @@
-CREATE OR ALTER  PROCEDURE [dbo].[spwfadummy]
+ CREATE OR ALTER  PROCEDURE [dbo].[spwfadummy]
 AS 
 	
 SELECT	1
