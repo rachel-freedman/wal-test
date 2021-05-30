@@ -1,7 +1,7 @@
 CREATE OR ALTER  PROCEDURE [dbo].[spwfadummy]
 AS 
 	
-SELECT	200
+SELECT	2
 
  GO
  declare @objectName sysname
