@@ -3,7 +3,6 @@ CREATE OR ALTER     PROCEDURE [dbo].[spwfa_copycustomdataexmaple]
 	@WorkflowInstanceID bigint,
 	@MasterWorkflowInstanceId bigint
 )
-
 AS
 
 
