@@ -1,0 +1,750 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>archive wf Process Documentation</title>
+<style>
+</style>
+
+</head>
+<body>
+	<h1>archive wf</h1>
+	<span>Process Documentation</span>
+	 <nav role="navigation" class="table-of-contents"> 
+ <h2>Table of Contents</h2>
+  <ul>
+ 
+ <li class="h2-item"><a href="#">Process Details</a>
+ <li class="h2-item"><a href="#">Human Activities</a>
+<ul>
+<li><a href="#">Form1</a>
+<ul>
+<li><a href="#">Views List</a>
+</li>
+<li><a href="#">Data Model</a>
+</li>
+<li><a href="#">Target Activities</a>
+</li>
+</ul>
+</li>
+<li><a href="#">Form2</a>
+<ul>
+<li><a href="#">Views List</a>
+</li>
+<li><a href="#">Data Model</a>
+</li>
+<li><a href="#">Target Activities</a>
+</li>
+</ul>
+</li>
+</ul>
+ <li class="h2-item"><a href="#">Flow Activities</a>
+<ul>
+<li><a href="#">End</a>
+<ul>
+<li><a href="#">Target Activities</a>
+</li>
+</ul>
+</li>
+</ul>
+ <li class="h2-item"><a href="#">Data Activities</a>
+<ul>
+<li><a href="#">DataModel1</a>
+<ul>
+<li><a href="#">Data Model</a>
+</li>
+<li><a href="#">Target Activities</a>
+</li>
+</ul>
+</li>
+</ul>
+ <li class="h2-item"><a href="#">Files Activities</a>
+<ul>
+<li><a href="#">FileWriter1</a>
+<ul>
+<li><a href="#">Data Model</a>
+</li>
+<li><a href="#">Target Activities</a>
+</li>
+</ul>
+</li>
+<li><a href="#">PutFile1</a>
+<ul>
+<li><a href="#">Data Model</a>
+</li>
+<li><a href="#">Target Activities</a>
+</li>
+</ul>
+</li>
+</ul>
+ <li class="h2-item"><a href="#">General Activities</a>
+<ul>
+<li><a href="#">Start</a>
+<ul>
+<li><a href="#">Target Activities</a>
+</li>
+</ul>
+</li>
+</ul>
+ <li class="h2-item"><a href="#">Server Side Activities</a>
+<ul>
+<li><a href="#">Assign1</a>
+<ul>
+<li><a href="#">Assignments</a>
+</li>
+<li><a href="#">Target Activities</a>
+</li>
+</ul>
+</li>
+</ul>
+ <li class="h2-item"><a href="#">Runtime Workflow Role Based Permissions</a>
+ <li class="h2-item"><a href="#">Integration End Points</a>
+ <li class="h2-item"><a href="#">Connections</a>
+	</li>
+  </ul>
+</nav><h2 id="" >Process Details</h2>
+
+<p><span>Process Name:</span><span>archive wf</span></p>
+<p><span>Process Alias:</span><span>archive wf</span></p>
+<p><span>Last Updated:</span><span>12/18/2020 17:21:19</span></p>
+<p><span>Last Updated by:</span><span>System Administrator</span></p>
+	   <h2 id="" >Human Activities</h2>
+
+	    		
+        		<section class="activity">
+		
+<h3 id="" >Form1</h3>
+
+<p><span>Type:</span><span>Form</span></p>
+<p><span>Activity Id:</span><span>bef66f71-bd28-4c10-b859-a554b2fbb125</span></p>
+<p><span>Alias:</span><span>Form1</span></p>
+<p><span>Description:</span><span></span></p><p><span>Blocking: </span><span>True</span></p><h4 id="" >Views List:</h4>
+
+
+<ol type="1">
+				<li>DefaultView</li>
+			
+	</ol>
+
+<h4 id="" >Data Model:</h4>
+
+
+<h4 id="" >Target Activities</h4>
+
+
+		<p>No Target Activities</p>
+	
+		</section>
+				<section class="activity">
+		
+<h3 id="" >Form2</h3>
+
+<p><span>Type:</span><span>Form</span></p>
+<p><span>Activity Id:</span><span>0229daa0-a327-40ee-a176-dcef1bcec89e</span></p>
+<p><span>Alias:</span><span>Form2</span></p>
+<p><span>Description:</span><span></span></p><p><span>Blocking: </span><span>True</span></p><h4 id="" >Views List:</h4>
+
+
+<ol type="1">
+				<li>DefaultView</li>
+			
+	</ol>
+
+<h4 id="" >Data Model:</h4>
+
+		<ul style="list-style-type:none">
+				<li>
+<h5 id="" class="datamodel">UACT1 - Table</h5>
+
+
+<table>
+	<thead>
+		<tr>
+			<th>Field Name</th>
+			<th>Filed Type</th>
+			<th>Default Value</th>
+			<th>Is Primary</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr> 
+		<td> fldId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> True </td>
+	</tr>
+	<tr> 
+		<td> fldIWfId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldIActId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldAIId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldMasterIWfId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> Field1Value </td>
+		<td> Guid </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> Field1Text </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	</tbody>
+</table>
+</li>
+				</ul>
+	
+<h4 id="" >Target Activities</h4>
+
+
+		<p>No Target Activities</p>
+	
+		</section>
+			   <h2 id="" >Flow Activities</h2>
+
+	    		
+        		<section class="activity">
+		
+<h3 id="" >End</h3>
+
+<p><span>Type:</span><span>End</span></p>
+<p><span>Activity Id:</span><span>2626a117-8386-421d-bfc6-afa4ee3df244</span></p>
+<p><span>Alias:</span><span>End</span></p>
+<p><span>Description:</span><span>Process end point</span></p>
+			<h4 id="" >Target Activities</h4>
+
+
+		<p>No Target Activities</p>
+	
+		</section>
+			   <h2 id="" >Data Activities</h2>
+
+	    		
+        		<section class="activity">
+		
+<h3 id="" >DataModel1</h3>
+
+<p><span>Type:</span><span>Data Model</span></p>
+<p><span>Activity Id:</span><span>4a51064c-18cb-4609-ad25-6214716e5859</span></p>
+<p><span>Alias:</span><span>DataModel1</span></p>
+<p><span>Description:</span><span></span></p>
+<h4 id="" >Data Model:</h4>
+
+		<ul style="list-style-type:none">
+				<li>
+<h5 id="" class="datamodel">tblemployees - Table</h5>
+
+
+<table>
+	<thead>
+		<tr>
+			<th>Field Name</th>
+			<th>Filed Type</th>
+			<th>Default Value</th>
+			<th>Is Primary</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr> 
+		<td> fldEmployeeId </td>
+		<td> Int32 </td>
+		<td>  </td>
+		<td> True </td>
+	</tr>
+	<tr> 
+		<td> fldEmpName </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldEmpLastName </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldEmpUseName </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldEmail </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldTenant </td>
+		<td> Int32 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldGroup </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldPassword </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldPasswordFormatId </td>
+		<td> Int32 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldLanguage </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldId </td>
+		<td> Int32 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldTitle </td>
+		<td> Int32 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr> 
+	<tr> 
+		<td> fldCalendarId </td>
+		<td> Guid </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldGlobalAdmin </td>
+		<td> Boolean </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldDeveloper </td>
+		<td> Boolean </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldActive </td>
+		<td> Boolean </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldUserGMT </td>
+		<td> Double </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldTimeZoneId </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldIsFromAD </td>
+		<td> Boolean </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldADFilterId </td>
+		<td> Int32 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> whenChanged </td>
+		<td> DateTime </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	</tbody>
+</table>
+</li>
+					<li>
+<h5 id="" class="datamodel">USPEXAMPLE - StoredProcedure</h5>
+
+</li>
+				</ul>
+	
+			<h4 id="" >Target Activities</h4>
+
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Link Order</th>
+				<th>Redirect Mode</th>
+			</tr>
+		</thead>
+		<tbody>
+							<tr>
+					<td>FileWriter1</td>
+					<td>0</td>
+					<td>All</td>
+				</tr>
+				</tbody>
+</table>
+	
+		</section>
+			   <h2 id="" >Files Activities</h2>
+
+	    		
+        		<section class="activity">
+		
+<h3 id="" >FileWriter1</h3>
+
+<p><span>Type:</span><span>File Writer</span></p>
+<p><span>Activity Id:</span><span>4e4299e8-d0d7-4f09-9271-6992e09cba71</span></p>
+<p><span>Alias:</span><span>FileWriter1</span></p>
+<p><span>Description:</span><span></span></p><p>
+	<span>Compensation:</span><span>N/A</span>
+</p>
+<h4 id="" >Data Model:</h4>
+
+		<ul style="list-style-type:none">
+				<li>
+<h5 id="" class="datamodel">Files - Table</h5>
+
+
+<table>
+	<thead>
+		<tr>
+			<th>Field Name</th>
+			<th>Filed Type</th>
+			<th>Default Value</th>
+			<th>Is Primary</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr> 
+		<td> fldId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> True </td>
+	</tr>
+	<tr> 
+		<td> fldIWfId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldIActId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldAIId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> ContentId </td>
+		<td> Guid </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> ContentFileName </td>
+		<td> String </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	</tbody>
+</table>
+</li>
+				</ul>
+	
+<p><span>File Name:</span><span>test.pdf</span></p>
+
+
+ 
+	<p><span>HTML:</span>
+	<span>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&#10;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#10;&lt;head id=&quot;Head1&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;&lt;title&gt;&#10;&#9;archive wf #20049 - Process Lab @win-dlolpobrd2f&#10;&lt;/title&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/Styles/WFEditor.css?d=637326403220000000&quot;/&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/Web/UI/Resources/Styles/Common/WindowHost.css?d=637326403100000000&quot;/&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/Web/UI/Resources/Styles/Shell/dteFooter.css?d=637326403100000000&quot;/&gt;&lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;/favicon.ico?d=637326403220000000&quot;/&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/Shared Resources/js/jQuery/jquery.min.js?d=637326403240000000&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/Shared Resources/js/jQuery/jquery-ui.min.js?d=637326403240000000&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/Web/UI/Resources/JavaScript/Common/WindowHost.js?d=637326403100000000&quot;&gt;&lt;/script&gt;&#10;    &lt;script type=&quot;text/javascript&quot;&gt;&#10;        var $sq = jQuery.noConflict();&#10;    &lt;/script&gt;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;        html, body, form {&#10;            height: 100%;&#10;        }&#10;&#10;        #ToolbarWindow {&#10;            width: 100%;&#10;            height: 85px;&#10;        }&#10;&#10;        #PropertiesWindow {&#10;            width: 285px;&#10;            height: 100%;&#10;        }&#10;&#10;        #DiagramWindow {&#10;            height: 100%;&#10;            width: calc(100% - 290px);&#10;        }&#10;&#10;        #debuggerFrameset {&#10;            height: calc(100% - 2px);&#10;        }&#10;&#10;        #debuggerFrameset.noFooter {&#10;            height: calc(100% + 22px);&#10;        }&#10;&#10;        #debuggerWrapper {&#10;            height: calc(100% - 100px);&#10;        }&#10;    &lt;/style&gt;&#10;&lt;style id=&quot;cjp&quot;&gt;body{display:none !important;}&lt;/style&gt;&lt;script type=&quot;text/javascript&quot;&gt;if (self == top) {&#10;           var cjp = document.getElementById(&quot;cjp&quot;);&#10;           cjp.parentNode.removeChild(cjp);&#10;           } else {&#10;           top.location = self.location;&#10;           }&lt;/script&gt;&lt;link href=&quot;/WebResource.axd?d=DHldT6cAxbMWQNDRyTW7AQN_3lCuO0wWH0-okSOt3qkbaY8MSvNpNze0RHYKyhakrhumRlbVYgcL_RfiWKN4D9GWJddh6UU4VItPPKoIU7GRcDXeF5EMQQdUWYpqRftgas8RjEk19b77oM5_NIxh1Q2&amp;amp;t=637365447480000000&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot; class=&quot;Telerik_stylesheet&quot; /&gt;&lt;/head&gt;&#10;&lt;body onunload=&quot;if (window.frames[&#39;ToolbarWindow&#39;] != null) {window.frames[&#39;ToolbarWindow&#39;].DetachDebugger();}&quot;&gt;&#10;    &lt;form name=&quot;ctl00&quot; method=&quot;post&quot; action=&quot;./DebuggerMainFrame.aspx?workflowInstanceId=20049&amp;amp;workflowId=d87a2e95-e4d1-48d4-8e10-48b000391a13&amp;amp;activityInstanceId=170056&amp;amp;activityId=b43a08ce-9d7c-471e-b37b-37011860aae6&quot; id=&quot;ctl00&quot;&gt;&#10;&lt;div&gt;&#10;&lt;input type=&quot;hidden&quot; name=&quot;__SqXsrfTokenValue&quot; id=&quot;__SqXsrfTokenValue&quot; value=&quot;/wEUKwAEZQUYYkE0OWRzenRnZXhLeXArcFAzL25DUT09Bh+8+2smithIBQ1hZG1pbmlzdHJhdG9y&quot; /&gt;&#10;&lt;input type=&quot;hidden&quot; name=&quot;__EVENTTARGET&quot; id=&quot;__EVENTTARGET&quot; value=&quot;&quot; /&gt;&#10;&lt;input type=&quot;hidden&quot; name=&quot;__EVENTARGUMENT&quot; id=&quot;__EVENTARGUMENT&quot; value=&quot;&quot; /&gt;&#10;&lt;input type=&quot;hidden&quot; name=&quot;__VIEWSTATE&quot; id=&quot;__VIEWSTATE&quot; value=&quot;fACH+IOQL/qvO2Nk19ksxEA9sPyvjHct/kUl7CXxOGkYd5x4qd6CQPAz3k0dZVgV879zwPqxUOtg6ZzFbiUpkCKaW3RloqJR041JS3ncM+3k6DOXIMJilBwD0bPHeT+07PcvJk+21JmHbwRBbdSqzjFJ/3GmZ0wJl25WWbTrxbLnnM4IwsWupBUnsBYWhhg+G4J95SGsyxE6b8hei4JZOQkP/JPgYSzV+FWPuW4dQihNL79SAibS8F9bni6mQKMhlCw/qRLvhfg38Fmv4ydgKwbHtPOZPTuz1LFCai72qUrnqYGg7mwm0B8Mnm0qM/GAMBLKZaGssBGSHdTd3ui5QYuDrwKZ8JmypthW+Vt70pBIbef/gEDFOHOgnjLjsiFjmCf6WYK30pgqXwGAwcRPYXiVc3V6l/7hTInm8Ue8hk5r/hmsCjJeHw0P2O8Ms1A1LlAP5CCQrDsjNkqkGTnm4Abm6Xj+xhB0xo+/EdHOq2YO2WtUJqXkfCTfxvPi6SxboyEstm/FCjhZAme6bz0PA/eCWnfj3izeHNZ126o09gQQyG6CNQBLZI5hbTxRSLCU7KSb3MfYEM6gHF646sFNiS97Tgon3DD1cH0jYoF0XHC4u5aZdKZyLk61OXsldI3x97Gr3pTHLYmYkL4D8WgXh9VLLOxW70tLfsuPsv5IpIByjoqj39hheoWUokjkaWD12AX9RQe52nUBqQtKGijwCF4zPwAw2/CWFvkkJ/rnAwX7jNnMykctgJ/tMklrxOuQmhOEvThehwdqIcUc8WUO/Kf4edO6H686ef/npqfea1I6AwE2gPUlY4u9st42EXjHAdhMUk0S9x4qzoKffJAknGnF+vpxZvEaN2bqxLHTExoEX6wp0LaCaihKlYBh6UadJ6UCh6c6KLrjommctfYUzaYdedgGBlROIJa6z4EG3hFVCn5C/X6Yi2vQmOeqctSKIxZYWz90UYxRlAOvLEsdUbq2wy7RYmBmy+WnQoUXwWm794YesuXIV576MvnPUAIkIPKxQzw8MRQ9OcfplujTG1wjRuGqDG/TesG6hnNKyWo5CvRm+BqUq5+1ALZKUmHKrfWnu90fEgfHVjfoWaeRjKXJ7yes6BwcMKx9444S7O3dRVDeZuvTGZ6f/ohdH0b6/AFvQScQBDitc8qXtiSjmA==&quot; /&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;//&lt;![CDATA[&#10;var theForm = document.forms[&#39;ctl00&#39;];&#10;if (!theForm) {&#10;    theForm = document.ctl00;&#10;}&#10;function __doPostBack(eventTarget, eventArgument) {&#10;    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {&#10;        theForm.__EVENTTARGET.value = eventTarget;&#10;        theForm.__EVENTARGUMENT.value = eventArgument;&#10;        theForm.submit();&#10;    }&#10;}&#10;//]]&gt;&#10;&lt;/script&gt;&#10;&#10;&#10;&lt;script src=&quot;/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZAnR3OYQxEoXfyW1o8gdBWZLI8uj0hkwhaDTnnMRTvR9vLXbV8Zgck-Kdla9jaKY3w2&amp;amp;t=637353014110221559&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;&lt;!--&#10;&#9;var workflowId = &quot;d87a2e95-e4d1-48d4-8e10-48b000391a13&quot;;&#10;&#9;var workflowInstanceId = 20049;&#10;&#9;var activityInstanceId = 170056;&#10;//--&gt;&#10;&lt;/script&gt;&#10;&#10;&lt;script src=&quot;/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yNolfVXy9C1eSSqoZjB2EsDG6hb3bSwlXvHSJaqoxQt1jt4PJiMNNjBLfQ9GYTSQE9Bh9uziNCKSdBxJH09O-FlXsAUABw3SRDvpw4wQ2lw5GH2Ygn7cZrUwoEpMa803knr1VZ1HHUBV8h22X3mEDRE1&amp;amp;t=ffffffffdfc97409&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=Jw6tUGWnA15YEa3ai3FadHyDXB-CGzUvYICD026qvj3GEHMo2jGsuxTcc_aSfeVV9IlcQRcTuq3VmsWDA5VEn9FRlvAWoRAYbpHxDtnFAx1BYibqtjjI9ELrwwZuDWitS1teZXTtvqNcsgl0rmu1NSGix-r5f6L4kKFsoz44BSQ1&amp;amp;t=ffffffffdfc97409&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=aAJWPr0H6b1NYktAiJXHrA1YZXQK-4Y3sHT7ZkFjyce_8ifFl4SD51yLTrVwmfkiP3JmDVwA9zZXdIy74xRqsLRmtSY71FzQGgY0bbkfUTv0LqWldKHX-Im3UKc1PfkKJYsyjoYXYJeeO1nquuC1sUjuw-e8UABbjo1YLeHPaKU1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=jZ5l0q6JYqtZWSMRQvZivKzfoADZ4JUEfoDsSeqY-TqY49-BuN-hH_ozyCK5ytp3GPIZI8o7MXH-UOuznns-ZM_CjcCI4yMw30MPBoqQb1ydLSrP9X7ScIxTzytjq2IwPvOeRpJISArKH8___cmR7IZheoIqLsi_CThZ6nQLwLI1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=NZl5ATqrnK5L5cOgR87HKtWz1iZJ21rkLqSjaxdbDX8hDDvc5IDIfvI-gE5guTgoTzcxRTSnvoCU0egGVoqY9qJ_v4SEPbd3fcP7UbC5aOdJ3tY1PpT3E8wZ8Ph0rMO-S3se24CYafkroi9tiWf7Jg2&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=ns9fru4I-CZ_QiHm85Sf9NpL8msHiIIYnQU9VWx4VqU-afEctCLnKv_nwrYWv5hdjrw9fay8TLDUcRZxDire0Wl8lNwzl0kQQi17GMDKkbkpjT0jVRJEAcB-IQ3kfpkBaqcqso1cJZqm-unUPT7olQ2&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=GxZ55Wtr5VLvhU-dhkku5eCNp6PlLoS7kPoE8nNi7rgCMIxDIFV2FDk353ugEV7kA-JgjeTNFTjNKcyXlMGDnBVtwHqrmQ6yVPzQGThjmE5sw9bbgUbc4nn20wMSlhMK0hyzcLFGX7_mHT3nBN_IA5E_joAMCnmuHJnhJi5G1sA1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=q2Wv7FGIhRJ15f0RCrIMnOVwCiSxB-RlQVIPKnI1mITjPsatUw2CbspMBw8af3foX7k8TmiubLfG_j7SVusZQWqKptcN4ItSAUw4rIKi7L3vDANmcW1Jx2i9yBv14VgueuLesSlfDBZ3SeUwj1rEjMA1g4DWVFd8QrPRCmf0vvE1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=ZqQZpTkbrOSDDdwBCq2kAl8_QPIGlU_NWTZ5QxUzlXKx1DF-K55WTSoJxbjqIPOGrjAsjzegnqhZ-STA_ARmKetsvMXxLGB3CDtuofkVVUKirUq1cWg4h9FwBruYRCcxDw6w_rjqXqKCkFqcxoa3poJcNSc__yOQQMGRGhjjo9CAw1RvR0aYNkxgJxyOdaaZ0&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=RmkJcR1cBVBKla5x1eOpHc1eGzj0n2So7QXpxTnlM8t8Ru93iyv4VBXkGGSYG8SKJBjzxMjACkoq5dMBmfVcD817OW18lT7xLRahXO8KSuVUDaVxK_TfRmHKOnCdDQP8Xl94yP8XGfTuWN1R0-gwXVS6OvKlM03iEWWTJ9eOB6Q1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=hP2TIi03PhJymITy521YC-wZPcsw4301i3Rve_sutXvfrrvauMBVWuIy5P-Ywg2AvfLZtumv-1qHI-MDz_TISEvbUSJPdD3OkASczCE_q7J8og8lDO8zWe2fLgwkG8iKjdWWZkfEFMetjsWkzx1D3LaOBpG5fqueLUSijzlMYfk1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=txm8CnV-W3a8x-QAe7SoMkvtgtSfx3V-nPpdv4lkX02SdvvT31jGTwkZ-Dm1_dmwOaaH-Ty0WRUoTjEn_utfJ1moP5Ma7iEsYiOd2x4R0X-oaO2R7OFh1oE9judIk4quws0otMIFPqUBz7-71dgGDgfjFZqCyergsOQMztFkxMw1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=mpJ3MpFI8IGoEsfHNcMBEWhu3ULQygCe4bDo5-hYJBMAWQESteGrh-vg-et_ljUGnXlSD4Gz7xXLtdGgFUWdaCzwNZGPIvAZ43xJgcu-0xSQkFdBU-wzr9IRdMibQ0PUt-Mt5M8gHSk0uXiTkffZH7RU_hqbmRqvRiw6PB4nOFQ1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=o0oDG794TAB_bRpig0mqAgDjy9hz4_xb7CIRaXd9kGvQoNSg3h7dc4Yjep4qF1C-yvZdg2kkmmwhNLATsQYjl-EU8stKuFMSi_PCfh28cbsXMdaDtB0mq261iXWin6OdGcJ3qz4JBcTRFYihv-6hwo0NfbaiLzkpCPOMs8n1MX01&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=jw4qF8DMATgxREhNeIiZZV6umqBsRp-7bkB1KOZ98nWly1gN5A4KV7cFvSSyYZ9g8isHDKgMS9okJyI2IJYunTtDqs9v62tz2sP6JUxTmd5P562SrilLSCC6x2VO064o9BHsqsh-4tGxmBJFt7tig1ibQURjik3kU5gZp14cPw01&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=P32BxCdsZ_AOVpp-ONLd9t5k48EWTa9CSQLYhOeFGJTUVD1ZOhsOm2QTGM9P4W4aqYrd_6Pj6rPLdPzwyI_e8QDSb1ofJjW8DGUFysHbRx3QhKOkpitehn3l-rpAkIk74kL63vtQIEdhtubggB24T80EsqBlrF2oHypjNePslW01&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=U3P_GsiFTcTuE1YOLFpoKZZdMnf8v1P5XCr84faspV0G_eEnQgzP-UIBRd8RUEHZ8rvat1Ne1wMrTFkOSvzpbgxarCSDX3oeRgtnMskQXIzE3KS2CDCBs217tzp_BXoDiWhkV4t3GK_bjDq-Y2hZoK76qiczPvtm-ADvsuNRUtA1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=0qUes5oYv3HhXv7Cl2m_jmX38kaaRuDRnNSKycfvMY_puFQefyd8GTwLTYkYgKJOerIcRMNEl7NzdkI4KaicnHSgKab_d36QDw41nHteyhsUxQamaTsYGEkhkCSXb1sz7BDrGpklltF0qpRlQrPFyYnxH_UN-Oo4gpBqNhU3Sto1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=dBTm6Kx5zF8AfBQh7-rHCMIkivSSXPpk1QSYR_k3aBnTqfHJ1HBUArTOdU83Hpypbue2IQ-VjbaSPvjWbey1JiOSFj-2gwtKJA4ITMLgH72qWvJ1XoCjnHfKhjTPv9-e9frWGXundxw20TJx5kGgRZDXUpCK1J0HkcGhgjxjJs41&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=4UZ3QRv89bku1BGekwl1MyHOR3gR7JAGdpfxsZYq1uo5tQutR1DrlerJXmq7rA4zLk2AvDj770QANLV0eR3qSbrtQmLizXUfkcmJxpg42i2MPTfQnYaraNnkQrmqFa1tZRj6zpAEwzfw95uumQpYlr-jm1B04ajd8sZrdOnTDFku-Yx-kWVOLLEt3rZFx0c80&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=ZYeH4hCY0tHHRtb-KSjR6dowikJFbppF8SBlNGW1L6Q-yOjTeulUgrSq93_7f9KjYy04o35i979Kb4gWAcKIwtLmw_I_QSvGQS4hnYinBpM_Nl7LK4u7LIb7BVkBqNSKanXuvUZUZ1lDaEfknQN0QlPJSLn8CN9z02bf62ekIzU1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=oNplTfk-YED43Re_h1-HOK9ZAixnizqRs2l990FJRzYWbl6Ntb1t16vRWAVwD464tGOyiJNfX5HtVLoTsrgvWlYjGkHkxKmjPuXk1M0L4d0ZdAsVD8uLQEZbIQqCfekl8PBLQL09WAPzPpcHy85ssHdN2p8ZzcEVpegAeCsLUAw1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=D4J9v9BQ7QFVO0wOJGHiH69mVD4WY6yel862bT7qCX3jMCdKOSLW_haUEz-FRsKMo3FHIVF__o3ZCWVTi9wRJ_YOALQNdZ55z2gKGZb1Uinan6PgfpqsEszSMIBn90PqPTsqlVeW91bsZM1FiN2pMi2FtZbiaeARQl0V7XIn8Y01&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=z1JWsD2iXxArxvSPVME3yNOZk1g-9yQyLpyx88KzMvxq488hxmV3SGL6fk6inF5vNOhrX0tt3l6-F2tz-1KTu137qDe4zTyYnbVfjUlh45xYEEArZzJMSfZfTza7qqyaazmP2bzi5CdvDek0UQ6VMg2&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=UCcOevPov70sMLKznGcx_dNBdA79D2H73K4wf1wEQX1I6a-kXqskMfVOeypmPqTUbM9lszPzumYmP-cK24Cg1wyJ9cXjsjeTVqIC29_H5_B6-MAXZkMdWOPRSx3SioVwPfZ8RRPgzCTnFhkN4NHdrAX-ZvHd4AqyFfk2plgi4mY1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=H6vAnjYb9vZrYCZrsQiejPQLLUl9ODU-9a341xRKgUHxuEVsRtx2JC8XXXeQj-zcAFe30bFXt7wVYPjnto5EXISJp4gHxESXWUfqC5OT-lPB4Af-HhRUn3TKqUbH_-CNd4lyLXL3jW4_S3Rd4e2i7aLYzCmErDW0yE7NwjH6VxY1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=YDaq2z4z8RgS2YMgkc_dbGhnyUv8kFwb68C8Lsbi89F9zll0BVDm_rPywHfMsmM0ueWACroQ5QIUVPerxqj9Q8XfOWciMG7D_ZrIJG3fsu6efNOysSX3KYvPu9A5UWtZ77HGYZYPbITNl0N1eTogGzB3BBNNUrhSAeRc1LGnujg1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=0aYwgt4MrWUau4bslnJN0XhgfQnSM7CdJFXlcVWE3Gj2V-e3J_48OvqBUn1R6TLm3gtaMjtbEjus1xcOReuj9V9cbCelqGApOBKPzHcXxzHFvNwmpYaJmYPgdVF_A-orO8-zDRm4prd3S3toLF656w2&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=MWAooDwTRReE3IcJMOGcECIM2yNBOnkS4PN8PvkIuOhpnUzbiuua5xKByORPKnujeYTYkcVWDn91WGoHhMCzXezDcLHasHsgSghYgIZ91ag6WPqTqtYNQR5-5JHieguoHIeGCKI6kw6r3LrmNlXf0tvSmoxplVyXOCoIxN1APy81&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/ScriptResource.axd?d=IohnnLTnF2iaDHB1zUkL1eLhw92eNSrChU7_3Det3TcZQ23xHMCaY-AF99IPry1I5YE3zDLfdWQx094y0NJWXd7bFY9hFYnh9DJIBOrX5eC-Ys31yur4RxrGS68PDxWmjwwCl_DE0OcpqfB2oT-AoEqOIgd0y3UgIl_yEpcf_TE1&amp;amp;t=564ed590&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;div&gt;&#10;&#10;&#9;&lt;input type=&quot;hidden&quot; name=&quot;__VIEWSTATEGENERATOR&quot; id=&quot;__VIEWSTATEGENERATOR&quot; value=&quot;79021D10&quot; /&gt;&#10;&lt;/div&gt;&#10;        &lt;script type=&quot;text/javascript&quot;&gt;&#10;//&lt;![CDATA[&#10;Sys.WebForms.PageRequestManager._initialize(&#39;PageScriptManager&#39;, &#39;ctl00&#39;, [], [], [], 90, &#39;&#39;);&#10;//]]&gt;&#10;&lt;/script&gt;&#10;&#10;        &lt;div id=&quot;ModalWindowManager&quot; style=&quot;border-width:0px;display:none;&quot;&gt;&#10;&#9;&lt;!-- 2016.1.113.0 --&gt;&lt;div id=&quot;ModalWindowManager_alerttemplate&quot; style=&quot;display:none;&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;rwDialogPopup radalert&quot;&gt;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;div class=&quot;rwDialogText&quot;&gt;&#10;&#9;&#9;&#9;{1}&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;div&gt;&#10;&#9;&#9;&#9;&#9;&lt;a  onclick=&quot;$find(&#39;{0}&#39;).close(true);&quot;&#10;&#9;&#9;&#9;&#9;class=&quot;rwPopupButton&quot; href=&quot;javascript:void(0);&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;span class=&quot;rwOuterSpan&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&lt;span class=&quot;rwInnerSpan&quot;&gt;##LOC[OK]##&lt;/span&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/span&gt;&#10;&#9;&#9;&#9;&#9;&lt;/a&gt;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&lt;div id=&quot;ModalWindowManager_prompttemplate&quot; style=&quot;display:none;&quot;&gt;&#10;&#9;&#9; &lt;div class=&quot;rwDialogPopup radprompt&quot;&gt;&#9;&#9;&#9;&#10;&#9;&#9;&#9;    &lt;div class=&quot;rwDialogText&quot;&gt;&#10;&#9;&#9;&#9;    {1}&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;    &lt;/div&gt;&#9;&#9;&#10;&#9;&#9;&#9;    &lt;div&gt;&#10;&#9;&#9;&#9;&#9;    &lt;script type=&quot;text/javascript&quot;&gt;&#10;&#9;&#9;&#9;&#9;    function RadWindowprompt_detectenter(id, ev, input)&#10;&#9;&#9;&#9;&#9;    {&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;    if (!ev) ev = window.event;                &#10;&#9;&#9;&#9;&#9;&#9;    if (ev.keyCode == 13)&#10;&#9;&#9;&#9;&#9;&#9;    {&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;        &#10;&#9;&#9;&#9;&#9;&#9;        var but = input.parentNode.parentNode.getElementsByTagName(&quot;A&quot;)[0];&#9;&#9;&#9;&#9;&#9;        &#10;&#9;&#9;&#9;&#9;&#9;        if (but)&#10;&#9;&#9;&#9;&#9;&#9;&#9;    {&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;    if (but.click) but.click();&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;    else if (but.onclick)&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;    {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;        but.focus(); var click = but.onclick; but.onclick = null; if (click) click.call(but);&#9;&#9;&#9;&#9;&#9;&#9;&#9; &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;    }&#10;&#9;&#9;&#9;&#9;&#9;&#9;    }&#10;&#9;&#9;&#9;&#9;&#9;       return false;&#10;&#9;&#9;&#9;&#9;&#9;    } &#10;&#9;&#9;&#9;&#9;&#9;    else return true;&#10;&#9;&#9;&#9;&#9;    }&#9; &#10;&#9;&#9;&#9;&#9;    &lt;/script&gt;&#10;&#9;&#9;&#9;&#9;    &lt;input title=&quot;Enter Value&quot; onkeydown=&quot;return RadWindowprompt_detectenter(&#39;{0}&#39;, event, this);&quot; type=&quot;text&quot;  class=&quot;rwDialogInput&quot; value=&quot;{2}&quot; /&gt;&#10;&#9;&#9;&#9;    &lt;/div&gt;&#10;&#9;&#9;&#9;    &lt;div&gt;&#10;&#9;&#9;&#9;&#9;    &lt;a onclick=&quot;$find(&#39;{0}&#39;).close(this.parentNode.parentNode.getElementsByTagName(&#39;input&#39;)[0].value);&quot;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;    class=&quot;rwPopupButton&quot; href=&quot;javascript:void(0);&quot; &gt;&lt;span class=&quot;rwOuterSpan&quot;&gt;&lt;span class=&quot;rwInnerSpan&quot;&gt;##LOC[OK]##&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&#10;&#9;&#9;&#9;&#9;    &lt;a onclick=&quot;$find(&#39;{0}&#39;).close(null);&quot; class=&quot;rwPopupButton&quot;  href=&quot;javascript:void(0);&quot;&gt;&lt;span class=&quot;rwOuterSpan&quot;&gt;&lt;span class=&quot;rwInnerSpan&quot;&gt;##LOC[Cancel]##&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&#10;&#9;&#9;&#9;    &lt;/div&gt;&#10;&#9;&#9;    &lt;/div&gt;&#9;&#9;&#9;&#9;       &#10;&#9;&#9;&lt;/div&gt;&lt;div id=&quot;ModalWindowManager_confirmtemplate&quot; style=&quot;display:none;&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;rwDialogPopup radconfirm&quot;&gt;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;div class=&quot;rwDialogText&quot;&gt;&#10;&#9;&#9;&#9;{1}&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;/div&gt;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;div&gt;&#10;&#9;&#9;&#9;&#9;&lt;a onclick=&quot;$find(&#39;{0}&#39;).close(true);&quot;  class=&quot;rwPopupButton&quot; href=&quot;javascript:void(0);&quot; &gt;&lt;span class=&quot;rwOuterSpan&quot;&gt;&lt;span class=&quot;rwInnerSpan&quot;&gt;##LOC[OK]##&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&#10;&#9;&#9;&#9;&#9;&lt;a onclick=&quot;$find(&#39;{0}&#39;).close(false);&quot; class=&quot;rwPopupButton&quot;  href=&quot;javascript:void(0);&quot;&gt;&lt;span class=&quot;rwOuterSpan&quot;&gt;&lt;span class=&quot;rwInnerSpan&quot;&gt;##LOC[Cancel]##&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&#9;&#9;&#10;&#9;&#9;&lt;/div&gt;&lt;input id=&quot;ModalWindowManager_ClientState&quot; name=&quot;ModalWindowManager_ClientState&quot; type=&quot;hidden&quot; /&gt;&#10;&lt;/div&gt;&#10;        &lt;div id=&quot;debuggerWrapper&quot;&gt;&#10;            &lt;iframe src=&quot;WFDebuggerToolbar.aspx?workflowId=d87a2e95-e4d1-48d4-8e10-48b000391a13&amp;workflowInstanceId=20049&quot; id=&quot;ToolbarWindow&quot; name=&quot;ToolbarWindow&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&#10;            &lt;div id=&quot;debuggerFrameset&quot;&gt;&#10;                &lt;iframe src=&quot;WFDiagramDebug.aspx?workflowInstanceId=20049&amp;workflowId=d87a2e95-e4d1-48d4-8e10-48b000391a13&amp;amp;PageNum=100&amp;displayMode=Diagram&quot; id=&quot;DiagramWindow&quot; name=&quot;DiagramWindow&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&#10;                &lt;iframe src=&quot;GetProperties.aspx?workflowInstanceId=20049&amp;objectId=d87a2e95-e4d1-48d4-8e10-48b000391a13&amp;objectType=00000000-0000-0000-0000-000000000000&amp;workflowId=d87a2e95-e4d1-48d4-8e10-48b000391a13&quot; id=&quot;PropertiesWindow&quot; name=&quot;PropertiesWindow&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;dteFooterRow&quot;&gt;&#10;             &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/Web/UI/Resources/Styles/Shell/dteFooter.css?d=637326403100000000&quot;/&gt;&#10;&lt;script&gt;&#10;    $sq(function () {&#10;        var slider = $sq(&quot;#slider&quot;);&#10;        slider.slider({&#10;            slide: function (event, ui) {&#10;                InvokeMenuAction(&#39;Zoom&#39;, ui.value / 100);&#10;                zoomDropDown.value = ui.value / 100;&#10;            },&#10;            value: zoomDropDown.value * 100,&#10;            min: 25,&#10;            max: 200,&#10;            step: 25&#10;        });&#10;    });&#10;&#10;    function HandleSlider(zoomButton) {&#10;        var slider = $sq(&quot;#slider&quot;);&#10;        var currentSliderValue = slider.slider(&quot;value&quot;);&#10;        if (zoomButton.id === &quot;ZoomIn&quot;) {&#10;            var newSliderValue = currentSliderValue + 25;&#10;            if (newSliderValue &lt;= 200)&#10;                slider.slider(&quot;value&quot;, newSliderValue);&#10;            if (zoomDropDown.selectedIndex &lt; zoomDropDown.length - 1) {&#10;                zoomDropDown.selectedIndex++;&#10;                Zoom();&#10;            }&#10;        }&#10;        if (zoomButton.id === &quot;ZoomOut&quot;) {&#10;            var newSliderValue = currentSliderValue - 25;&#10;            if (newSliderValue &gt;= 25)&#10;                slider.slider(&quot;value&quot;, newSliderValue);&#10;            if (zoomDropDown.selectedIndex &gt; 0) {&#10;                zoomDropDown.selectedIndex--;&#10;                Zoom();&#10;            }&#10;        }&#10;    }&#10;&#10;    function Zoom() {&#10;        if (typeof InvokeMenuAction === &#39;function&#39;){&#10;            InvokeMenuAction(&#39;Zoom&#39;, zoomDropDown.value);&#10;        }&#10;        else {&#10;            window.DiagramWindow.Zoom(zoomDropDown.value);&#10;        }&#10;        $sq(&quot;#slider&quot;).slider(&quot;value&quot;, zoomDropDown.value * 100)&#10;    }&#10;&lt;/script&gt;&#10;&lt;div&gt;&#10;    &lt;span id=&quot;ZoomOut&quot; class=&quot;ui-slider-signs&quot; onclick=&quot;HandleSlider(this);&quot; title=&quot;Zoom out of the Workflow Canvas&quot;&gt;-&lt;/span&gt;&lt;div id=&quot;slider&quot;&gt;&lt;/div&gt;&#10;    &lt;span id=&quot;ZoomIn&quot; class=&quot;ui-slider-signs&quot; onclick=&quot;HandleSlider(this);&quot; title=&quot;Zoom in on the Workflow Canvas&quot;&gt;+&lt;/span&gt;&#10;    &lt;select name=&quot;ctl10$zoomDropDown&quot; id=&quot;ctl10_zoomDropDown&quot; onchange=&quot;Zoom();&quot; style=&quot;vertical-align: middle;&quot;&gt;&#10;&#9;&lt;option value=&quot;0.25&quot;&gt; 25%&lt;/option&gt;&#10;&#9;&lt;option value=&quot;0.5&quot;&gt; 50%&lt;/option&gt;&#10;&#9;&lt;option value=&quot;0.75&quot;&gt; 75%&lt;/option&gt;&#10;&#9;&lt;option selected=&quot;selected&quot; value=&quot;1&quot;&gt;100%&lt;/option&gt;&#10;&#9;&lt;option value=&quot;1.25&quot;&gt;125%&lt;/option&gt;&#10;&#9;&lt;option value=&quot;1.5&quot;&gt;150%&lt;/option&gt;&#10;&#9;&lt;option value=&quot;1.75&quot;&gt;175%&lt;/option&gt;&#10;&#9;&lt;option value=&quot;2&quot;&gt;200%&lt;/option&gt;&#10;&#10;&lt;/select&gt;&#10;&lt;/div&gt;&#10;&#10;        &lt;/div&gt;&#10;    &#10;&#10;&lt;script type=&quot;text/javascript&quot;&gt;&#10;//&lt;![CDATA[&#10;var zoomDropDown = document.getElementById(&#39;ctl10_zoomDropDown&#39;);&#10;Sys.Application.add_init(function() {&#10;    $create(PNMsoft.Rad.Web.UI.RadWindowManager, {&quot;behaviors&quot;:53,&quot;clientStateFieldID&quot;:&quot;ModalWindowManager_ClientState&quot;,&quot;destroyOnClose&quot;:true,&quot;enableShadow&quot;:true,&quot;formID&quot;:&quot;ctl00&quot;,&quot;iconUrl&quot;:&quot;&quot;,&quot;keepInScreenBounds&quot;:true,&quot;minimizeIconUrl&quot;:&quot;&quot;,&quot;modal&quot;:true,&quot;name&quot;:&quot;ModalWindowManager&quot;,&quot;shortcuts&quot;:&quot;[[\u0027closeActiveWindow\u0027,\u0027Esc\u0027]]&quot;,&quot;showContentDuringLoad&quot;:false,&quot;showOnTopWhenMaximized&quot;:false,&quot;skin&quot;:&quot;ModalDialog&quot;,&quot;visibleStatusbar&quot;:false,&quot;windowControls&quot;:&quot;[]&quot;}, null, null, $get(&quot;ModalWindowManager&quot;));&#10;});&#10;//]]&gt;&#10;&lt;/script&gt;&#10;&lt;/form&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;</span></p>
+
+	
+	<p><span>Page Size:</span><span>A4
+	(297mm x
+	210mm)</span></p>
+
+	<p><span>Live URL's Enabled:</span><span>True</span></p>
+	<p><span>Footer Page Numbering:</span><span>True</span></p>
+
+			<h4 id="" >Target Activities</h4>
+
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Link Order</th>
+				<th>Redirect Mode</th>
+			</tr>
+		</thead>
+		<tbody>
+							<tr>
+					<td>PutFile1</td>
+					<td>0</td>
+					<td>All</td>
+				</tr>
+				</tbody>
+</table>
+	
+		</section>
+		 		
+        		<section class="activity">
+		
+<h3 id="" >PutFile1</h3>
+
+<p><span>Type:</span><span>Put File</span></p>
+<p><span>Activity Id:</span><span>b43a08ce-9d7c-471e-b37b-37011860aae6</span></p>
+<p><span>Alias:</span><span>PutFile1</span></p>
+<p><span>Description:</span><span></span></p>
+<h4 id="" >Data Model:</h4>
+
+		<ul style="list-style-type:none">
+				<li>
+<h5 id="" class="datamodel">Files - Table</h5>
+
+
+<table>
+	<thead>
+		<tr>
+			<th>Field Name</th>
+			<th>Filed Type</th>
+			<th>Default Value</th>
+			<th>Is Primary</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr> 
+		<td> fldId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> True </td>
+	</tr>
+	<tr> 
+		<td> fldIWfId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldIActId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> fldAIId </td>
+		<td> Int64 </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> TargetPath </td>
+		<td> MultilineText </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	<tr> 
+		<td> SourceFiles </td>
+		<td> Xml </td>
+		<td>  </td>
+		<td> False </td>
+	</tr>
+	</tbody>
+</table>
+</li>
+				</ul>
+	<p>
+	<span>Compensation:</span><span>N/A</span>
+</p>
+<p><span>Connection:</span><span>test</span></p>
+<p><span>Target Path:</span><span>temp</span></p>
+<p><span>If the path doesn't exist, create new path automatically:</span><span>True</span></p>
+<p><span>Source File:</span><span>{FileWriter1}.Content</span></p>
+<p><span>Target File Names:</span><span>file.pdf</span></p>
+<p><span>Compress files into ZIP file:</span><span>False</span></p>
+<p><span>If file exists:</span><span>Override</span></p><h4 id="" >Target Activities</h4>
+
+
+		<p>No Target Activities</p>
+	
+		</section>
+			   <h2 id="" >General Activities</h2>
+
+	    		
+        		<section class="activity">
+		
+<h3 id="" >Start</h3>
+
+<p><span>Type:</span><span>Start Event</span></p>
+<p><span>Activity Id:</span><span>ab7f82b4-8167-4749-9793-9c477384943f</span></p>
+<p><span>Alias:</span><span>Start</span></p>
+<p><span>Description:</span><span></span></p>
+			<h4 id="" >Target Activities</h4>
+
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Link Order</th>
+				<th>Redirect Mode</th>
+			</tr>
+		</thead>
+		<tbody>
+							<tr>
+					<td>Form2</td>
+					<td>0</td>
+					<td>All</td>
+				</tr>
+							<tr>
+					<td>DataModel1</td>
+					<td>0</td>
+					<td>All</td>
+				</tr>
+				</tbody>
+</table>
+	
+		</section>
+			   <h2 id="" >Server Side Activities</h2>
+
+	    		
+        		<section class="activity">
+		
+<h3 id="" >Assign1</h3>
+
+<p><span>Type:</span><span>Assign</span></p>
+<p><span>Activity Id:</span><span>84983b9d-e15c-4e52-9432-f79a23d7377a</span></p>
+<p><span>Alias:</span><span>Assign1</span></p>
+<p><span>Description:</span><span></span></p><p>
+	<span>Compensation:</span><span>N/A</span>
+</p><p><span>Throw On Error Invoking: </span><span>False</span></p>
+	<h4 id="" >Assignments:</h4>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Variable</th>
+				<th>Value</th>
+			</tr>
+		</thead>
+		<tbody>
+							<tr>
+					<td>t1</td>
+					<td>wf.Stage</td>
+				</tr>
+						</tbody>
+	</table>
+<h4 id="" >Target Activities</h4>
+
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Link Order</th>
+				<th>Redirect Mode</th>
+			</tr>
+		</thead>
+		<tbody>
+							<tr>
+					<td>Form1</td>
+					<td>0</td>
+					<td>All</td>
+				</tr>
+				</tbody>
+</table>
+	
+		</section>
+		<h2 id="" >Runtime Workflow Role Based Permissions</h2>
+
+<table>
+	<thead>
+		<tr>
+			<th>Role</th>
+			<th>Everyone</th>
+			<th>Employee</th>
+			<th>Group</th>
+			<th>Role in Group</th>
+			<th>Include Child Groups</th>
+		</tr>
+	</thead>
+	<tbody>
+						<tr>
+					<td>
+						Administrator
+					</td>
+					<td>
+						 ✓ 					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>					
+				</tr>
+				</tbody>
+</table>
+
+<h2 id="" >Integration End Points</h2>
+
+
+	<h2 id="" >Connections</h2>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Connection String</th>
+			</tr>
+		</thead>
+		<tbody>
+							<tr>
+					<td></td>
+					<td>Provider: SqlClient Data Provider (System.Data.SqlClient)&#10;MultipleActiveResultSets=true;initial catalog=CoraSequence;persist security info=True;data source=(local);packet size=4096;user id=sa;password=*;</td>
+				</tr>
+					</tbody>
+	</table>
+
+
+	<br/>
+	<br/>
+</body>
+</html>

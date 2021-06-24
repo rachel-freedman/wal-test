@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<OU name="Entire Organization">
+  <!-- name can be the full path, like 'Entire Organization/Some OU name' -->
+  <OU name="OU Level 1">
+    <OU name="OU Level 1.1"></OU>
+    <OU name="OU Level 1.2"></OU>
+  </OU>
+</OU>
