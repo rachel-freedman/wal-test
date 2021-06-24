@@ -1,6 +1,6 @@
 CREATE OR ALTER  PROCEDURE [dbo].[spwfadummy]
 AS 
-	
+	 
 SELECT	10
 
  GO
