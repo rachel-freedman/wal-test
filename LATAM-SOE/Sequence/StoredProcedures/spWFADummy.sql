@@ -1,7 +1,7 @@
 CREATE OR ALTER  PROCEDURE [dbo].[spwfadummy]
 AS 
 	
-SELECT	11 
+SELECT	1
 
  GO
  declare @objectName sysname
@@ -9,7 +9,7 @@ SELECT	11
  declare @datetime_val datetime
  set @objectName = 'spwfadummy'
  set @object_id = object_id(@objectName);
- set @datetime_val = '2021-06-16T20:52:58.689'
+ set @datetime_val = '2021-06-28T11:41:05.050'
  if exists(select * from sys.extended_properties where name = 'CreationDate' and major_id = @object_id)
  begin
  exec sp_updateextendedproperty
