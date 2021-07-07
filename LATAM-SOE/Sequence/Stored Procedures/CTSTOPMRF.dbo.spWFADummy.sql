@@ -9,7 +9,7 @@ SELECT	1
  declare @datetime_val datetime
  set @objectName = 'spwfadummy'
  set @object_id = object_id(@objectName);
- set @datetime_val = '2021-07-07T09:24:11.857'
+ set @datetime_val = '2021-07-07T09:58:16.834'
  if exists(select * from sys.extended_properties where name = 'CreationDate' and major_id = @object_id)
  begin
  exec sp_updateextendedproperty
