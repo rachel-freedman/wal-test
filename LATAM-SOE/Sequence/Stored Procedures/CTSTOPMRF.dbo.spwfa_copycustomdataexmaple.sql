@@ -24,7 +24,7 @@ WHERE
  declare @datetime_val datetime
  set @objectName = 'spwfa_copycustomdataexmaple'
  set @object_id = object_id(@objectName);
- set @datetime_val = '2021-06-30T05:07:18.571'
+ set @datetime_val = '2021-07-07T11:02:42.309'
  if exists(select * from sys.extended_properties where name = 'CreationDate' and major_id = @object_id)
  begin
  exec sp_updateextendedproperty
